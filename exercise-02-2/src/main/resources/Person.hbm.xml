@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+    <class name="edu.miu.cs.cs544.exercise02_2.Person" table="PEOPLE">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="firstName" column="first_name"/>
+        <property name="lastName" column="last_name"/>
+        <property name="dateOfBirth" column="dob"/>
+    </class>
+</hibernate-mapping>
