@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- database configuration -->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/cs544</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">secret</property>
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="show_sql">true</property>
+        <property name="hbm2ddl.auto">create-drop</property>
+
+        <!-- Mapping XML File -->
+        <mapping class="edu.miu.cs.cs544.exercise03_2.a.Department"/>
+        <mapping class="edu.miu.cs.cs544.exercise03_2.a.Employee"/>
+        <mapping class="edu.miu.cs.cs544.exercise03_2.b.Book"/>
+        <mapping class="edu.miu.cs.cs544.exercise03_2.b.Publisher"/>
+    </session-factory>
+</hibernate-configuration>
