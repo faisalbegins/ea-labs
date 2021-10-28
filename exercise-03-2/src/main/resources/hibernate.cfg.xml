@@ -22,5 +22,8 @@
 
         <mapping class="edu.miu.cs.cs544.exercise03_2.c.Course"/>
         <mapping class="edu.miu.cs.cs544.exercise03_2.c.Student"/>
+
+        <mapping class="edu.miu.cs.cs544.exercise03_2.d.Customer"/>
+        <mapping class="edu.miu.cs.cs544.exercise03_2.d.Reservation"/>
     </session-factory>
 </hibernate-configuration>
