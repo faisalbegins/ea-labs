@@ -31,13 +31,13 @@ public class Customer {
             inverseJoinColumns = @JoinColumn(name = "reservation_id")
     )
     @Setter(AccessLevel.PRIVATE)
-    private List<edu.miu.cs.cs544.exercise03_2.e.Reservation> reservations = new ArrayList<>();
+    private List<Reservation> reservations = new ArrayList<>();
 
-    public boolean addReservation(edu.miu.cs.cs544.exercise03_2.e.Reservation reservation) {
+    public boolean addReservation(Reservation reservation) {
         return reservations.add(reservation);
     }
 
-    public boolean removeReservation(edu.miu.cs.cs544.exercise03_2.e.Reservation reservation) {
+    public boolean removeReservation(Reservation reservation) {
         return reservations.remove(reservation);
     }
 
