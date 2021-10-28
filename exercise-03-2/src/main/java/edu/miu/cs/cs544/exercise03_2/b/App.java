@@ -22,10 +22,10 @@ public class App {
         });
 
         withTx(session -> {
-            List<Book> books = session.createQuery("from Book", Book.class).list();
+            List<Book> books = session.createQuery("from edu.miu.cs.cs544.exercise03_2.b.Book", Book.class).list();
             books.forEach(System.out::println);
 
-            List<Publisher> publishers = session.createQuery("from Publisher ", Publisher.class).list();
+            List<Publisher> publishers = session.createQuery("from edu.miu.cs.cs544.exercise03_2.b.Publisher ", Publisher.class).list();
             publishers.forEach(System.out::println);
         });
 

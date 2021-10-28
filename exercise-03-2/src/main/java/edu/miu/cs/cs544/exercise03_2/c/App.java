@@ -19,12 +19,14 @@ public class App {
 
         withTx(session -> {
             System.out.println("all courses");
-            List<Course> courses = session.createQuery("from Course", Course.class).list();
+            List<Course> courses = session.createQuery("from edu.miu.cs.cs544.exercise03_2.c.Course", Course.class).list();
             courses.forEach(System.out::println);
 
             System.out.println("all student with their courses");
-            List<Student> students = session.createQuery("from Student", Student.class).list();
+            List<Student> students = session.createQuery("from edu.miu.cs.cs544.exercise03_2.c.Student", Student.class).list();
             students.forEach(System.out::println);
         });
+
+        System.exit(0);
     }
 }

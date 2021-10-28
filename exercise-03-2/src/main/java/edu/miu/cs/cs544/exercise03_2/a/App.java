@@ -35,7 +35,7 @@ public class App {
         });
 
         withTx(session -> {
-            List<Department> departments = session.createQuery("from Department", Department.class).list();
+            List<Department> departments = session.createQuery("from edu.miu.cs.cs544.exercise03_2.a.Department", Department.class).list();
             departments.forEach(System.out::println);
         });
 

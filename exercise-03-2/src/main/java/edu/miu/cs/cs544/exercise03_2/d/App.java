@@ -15,8 +15,10 @@ public class App {
         });
 
         withTx(session -> {
-            List<Customer> customers = session.createQuery("from Customer", Customer.class).list();
+            List<Customer> customers = session.createQuery("from edu.miu.cs.cs544.exercise03_2.d.Customer", Customer.class).list();
             customers.forEach(System.out::println);
         });
+
+        System.exit(0);
     }
 }
