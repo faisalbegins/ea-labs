@@ -16,7 +16,11 @@
         <!-- Mapping XML File -->
         <mapping class="edu.miu.cs.cs544.exercise03_2.a.Department"/>
         <mapping class="edu.miu.cs.cs544.exercise03_2.a.Employee"/>
+
         <mapping class="edu.miu.cs.cs544.exercise03_2.b.Book"/>
         <mapping class="edu.miu.cs.cs544.exercise03_2.b.Publisher"/>
+
+        <mapping class="edu.miu.cs.cs544.exercise03_2.c.Course"/>
+        <mapping class="edu.miu.cs.cs544.exercise03_2.c.Student"/>
     </session-factory>
 </hibernate-configuration>
