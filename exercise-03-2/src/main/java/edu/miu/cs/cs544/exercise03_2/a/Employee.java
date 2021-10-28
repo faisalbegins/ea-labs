@@ -10,7 +10,7 @@ import javax.persistence.ManyToOne;
 @Entity
 @Getter
 @Setter
-@ToString(of = {"employeeNumber", "name"})
+@ToString
 @NoArgsConstructor
 @RequiredArgsConstructor(staticName = "of")
 public class Employee {
@@ -22,5 +22,6 @@ public class Employee {
 
     @ManyToOne
     @JoinColumn(name = "department_id")
+    @ToString.Exclude
     private Department department;
 }
