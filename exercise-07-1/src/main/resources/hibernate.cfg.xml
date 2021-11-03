@@ -18,5 +18,7 @@
         <mapping class="edu.miu.cs.cs544.exercise07_1.model.Airplane"/>
         <mapping class="edu.miu.cs.cs544.exercise07_1.model.Airport"/>
         <mapping class="edu.miu.cs.cs544.exercise07_1.model.Flight"/>
+        <mapping class="edu.miu.cs.cs544.exercise07_1.model.Aaa"/>
+        <mapping class="edu.miu.cs.cs544.exercise07_1.model.Bbb"/>
     </session-factory>
 </hibernate-configuration>

@@ -15,6 +15,7 @@
         <module>exercise-03-2</module>
         <module>exercise-05-1</module>
         <module>exercise-07-1</module>
+        <module>exercise-11-1</module>
     </modules>
 
     <packaging>pom</packaging>
