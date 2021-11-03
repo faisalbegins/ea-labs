@@ -18,6 +18,7 @@
         <module>exercise-11-1</module>
         <module>exercise-11-2</module>
         <module>exercise-11-3</module>
+        <module>exercise-11-3-annotation</module>
     </modules>
 
     <packaging>pom</packaging>
