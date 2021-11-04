@@ -2,5 +2,5 @@
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
-    <bean id="accountDAO" class="edu.miu.cs.cs544.exercise12_2.bank.dao.AccountDAO"/>
+    <bean id="accountDAO" class="edu.miu.cs.cs544.exercise13_2.bank.dao.AccountDAO"/>
 </beans>
