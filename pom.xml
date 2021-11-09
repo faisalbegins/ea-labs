@@ -27,6 +27,7 @@
         <module>exercise-16-2</module>
         <module>exercise-17-1</module>
         <module>exercise-17-2</module>
+        <module>exercise-15-1</module>
     </modules>
 
     <packaging>pom</packaging>
