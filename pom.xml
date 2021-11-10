@@ -29,6 +29,7 @@
         <module>exercise-17-2</module>
         <module>exercise-15-1</module>
         <module>exercise-15-2</module>
+        <module>spring-rest</module>
     </modules>
 
     <packaging>pom</packaging>
